@@ -20,11 +20,13 @@ The Project is divided into two main parts:
 ## System Architecture
 
 ### 1. Embedded Simulator Architecture
-![System Architecture Diagram](https://github.com/vinaypbharambe/Embedded_DAQ-COMM/blob/main/embedded%20simulator.png)
+![System Architecture Diagram](https://github.com/vinaypbharambe/Embedded_DAQ-COMM/blob/main/images/embedded%20simulator%20architechture.png)
 
 ### 2. Hardware based DAQ and COMM
-![System Architecture Diagram](https://github.com/vinaypbharambe/Embedded_DAQ-COMM/blob/main/hardware%20daq.png)
+![System Architecture Diagram](https://github.com/vinaypbharambe/Embedded_DAQ-COMM/blob/main/images/hardware%20daq%20architechture.png)
 
+#### Devices used:
+![NRF24 Circuit Diagram](https://github.com/vinaypbharambe/Embedded_DAQ-COMM/blob/main/images/Devices.png)
 
 
 ## Run Information
@@ -79,7 +81,7 @@ The Project is divided into two main parts:
    ./embedded_simulator --error-dht11
    ```
 
-   ![System Architecture Diagram](just_emulator.png)
+   ![System Architecture Diagram](https://github.com/vinaypbharambe/Embedded_DAQ-COMM/blob/main/images/just_emulator.png)
 
 8. **Running the Sender GUI**  
    In order to observe the same data stream through the graphical interface, run the following commands:
@@ -88,7 +90,7 @@ The Project is divided into two main parts:
    python main.py
    ```
 
-   ![System Architecture Diagram](SenderGUI.png)
+   ![System Architecture Diagram](https://github.com/vinaypbharambe/Embedded_DAQ-COMM/blob/main/images/sendergui.png)
 
      
 ### B. Hardware DAQ and COMM
@@ -129,7 +131,7 @@ The Project is divided into two main parts:
 8. **Verifying Terminal Output**  
    Observe that the output of the terminal will show live readings for the DHT11, MPU6050, GPS, and System info. By default, this mode runs in `--normal` mode, and there is no manual error simulation mode here.
 
-   ![System Architecture Diagram](just_emulator.png)
+   ![System Architecture Diagram](https://github.com/vinaypbharambe/Embedded_DAQ-COMM/blob/main/images/total%20sensors.png)
 
 9. **Hardware Status Check**  
    Observe the serial communication (TX/RX) LEDs blinking on the Arduino Uno as new telemetry data is successfully received at 1-second intervals.
@@ -147,16 +149,16 @@ The Project is divided into two main parts:
 12. **Live Data Visualization**  
     You will see the incoming sensor stream start to populate live on your interface dashboard.
 
-    ![Receiver Monitor](receiver_monitor.png)
+    ![Receiver Monitor](https://github.com/vinaypbharambe/Embedded_DAQ-COMM/blob/main/images/rec%20monitor.jpeg)
 
 ---
 
 ### Hardware Reference Diagrams
 
 #### NRF24 Circuit Schematic
-![NRF24 Circuit Diagram](NRF24.png)
+![NRF24 Circuit Diagram](https://github.com/vinaypbharambe/Embedded_DAQ-COMM/blob/main/images/NRF24.png)
 
 #### Final Hardware Setup & Connections
-![Hardware Setup Connections](hardware.png)
+![Hardware Setup Connections](https://github.com/vinaypbharambe/Embedded_DAQ-COMM/blob/main/images/hardware%20setup.jpeg)
 
 
