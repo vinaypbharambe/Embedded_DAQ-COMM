@@ -26,3 +26,10 @@ The Project is divided into two main parts:
 ![System Architecture Diagram](https://github.com/vinaypbharambe/Embedded_DAQ-COMM/blob/main/hardware%20daq.png)
 
 
+
+Run Information:
+A. Embedded Simulator
+1. It is important to have a Linux based system for this  project. I have setup an Ubuntu 24.04 based Virtual Machine to run the required program.
+2. It is important to have required tools such as "build-essentials" , "cmake" and other maketools for building the C applications. I use my standard installation packages given in install.x
+3. It is important to have Python3 and PyQT6 installation to setup GUI for both Sender and Receiver side.
+4. Once this all is set, 
